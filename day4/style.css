@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 80vh;
+}
+section h2 {
+  color: #B2C52B;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left_box {
+  float: left;
+  width: 250px;
+  height: 80vh;
+  margin-left: 50px;
+}
+
+.left_box p {
+  text-align: justify;
+  color: #010101;
+}
+
+.right_box {
+  float: left;
+  width: 500px;
+  height: 80vh;
+}
+.right_box img {
+  float: left;
+  width: 350px;
+  height: 150px;
+  margin-left: 200px;
+}
+
+footer {
+  background-color: #323232;
+  width: 100%;
+}
+footer p {
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+  padding: 48px;
+}
+
+#header {
+  height: 12vh;
+}
+
+header {
+  background-color: #010101;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+header .logo {
+  margin: 10px 0 20px 10px;
+  height: 80px;
+  width: 250px;
+  float: left;
+}
+header .logo h1 {
+  color: #B2C52B;
+}
+header .logo p {
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+}
+header nav {
+  float: right;
+  margin-right: 20px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  display: block;
+  background-color: #323232;
+  color: #FFF;
+  text-decoration: none;
+  padding: 13px 20px;
+  margin: 18px 0px;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  background-color: #B2C52B;
+}
+
+#slider {
+  background-color: #B2C52B;
+  width: 100%;
+  height: 250px;
+}
+#slider .left-slider {
+  width: 500px;
+  height: 200px;
+  float: left;
+}
+#slider .left-slider h1 {
+  color: #323232;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#slider .left-slider p {
+  text-align: justify;
+  font-size: 18px;
+}
+#slider .left-slider p span {
+  color: #FFF;
+}
+#slider .left-slider a {
+  display: block;
+  background-color: #646d1b;
+  padding: 8px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #FFF;
+  float: right;
+}
+#slider .right-slider {
+  float: left;
+  width: 340px;
+  height: 170px;
+  padding: 15px;
+}
+#slider .right-slider img {
+  float: left;
+  width: 340px;
+  height: 170px;
+}/*# sourceMappingURL=style.css.map */
